@@ -65,16 +65,7 @@ export default function HomeScreen() {
   return (
     <div>
       <div className="flex items-center gap-2 px-4 pt-4 pb-2">
-        <svg width="24" height="24" viewBox="0 0 72 72" fill="none">
-          <defs>
-            <linearGradient id="orbitGradHome" x1="0" y1="0" x2="72" y2="72" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stopColor="#818cf8" />
-              <stop offset="100%" stopColor="#c084fc" />
-            </linearGradient>
-          </defs>
-          <circle cx="36" cy="36" r="14" fill="url(#orbitGradHome)" />
-          <ellipse cx="36" cy="36" rx="32" ry="12" stroke="url(#orbitGradHome)" strokeWidth="3" fill="none" transform="rotate(-20 36 36)" />
-        </svg>
+        <img src="/logo.png" alt="ORBIT" width="26" height="26" className="rounded-md" />
         <h1 className="text-xl font-semibold tracking-wide">ORBIT</h1>
       </div>
 
