@@ -1,0 +1,16 @@
+{
+  "name": "ORBIT",
+  "short_name": "ORBIT",
+  "description": "ORBIT — social media and entertainment platform",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
