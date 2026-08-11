@@ -29,17 +29,7 @@ export default function AuthScreen({ onAuthSuccess }: { onAuthSuccess: () => voi
   return (
     <div className="min-h-screen flex flex-col justify-center items-center px-6 bg-black text-white">
       <div className="mb-10 flex flex-col items-center">
-        <svg width="72" height="72" viewBox="0 0 72 72" fill="none">
-          <defs>
-            <linearGradient id="orbitGrad" x1="0" y1="0" x2="72" y2="72" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stopColor="#818cf8" />
-              <stop offset="100%" stopColor="#c084fc" />
-            </linearGradient>
-          </defs>
-          <circle cx="36" cy="36" r="14" fill="url(#orbitGrad)" />
-          <ellipse cx="36" cy="36" rx="32" ry="12" stroke="url(#orbitGrad)" strokeWidth="2.5" fill="none" transform="rotate(-20 36 36)" />
-          <circle cx="8" cy="30" r="2.5" fill="#c084fc" />
-        </svg>
+        <img src="/logo.png" alt="ORBIT" width="80" height="80" className="rounded-2xl" />
         <h1 className="text-2xl font-semibold mt-3 tracking-wide">ORBIT</h1>
         <p className="text-xs text-neutral-500 mt-1">Your world. Your people. Your entertainment.</p>
       </div>
